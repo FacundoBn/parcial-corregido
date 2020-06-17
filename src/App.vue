@@ -6,9 +6,9 @@
       
 
       <!--<Formulario />-->
-      <Navbar />
+      <Login />
       <!--<Tareas />-->
-     <router-view></router-view>
+     
      <h3>Respuesta del Cuestionario: </h3>
      <p>1-D</p>
      <br>
@@ -37,14 +37,14 @@
 
 <script>
 
-import Navbar from "./components/Navbar.vue";
+import Login from "./components/Login.vue";
 //import Formulario from "./components/Formulario.vue";
 //import Tareas from "./components/Tareas.vue";
 
 export default {
   name: "App",
   components: {
-    Navbar,
+    Login,
     //Formulario,
     //Tareas,
   },
